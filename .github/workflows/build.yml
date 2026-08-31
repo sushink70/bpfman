@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # @v4
       - name: Check License Header
-        uses: apache/skywalking-eyes@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1
+        uses: apache/skywalking-eyes@a196742f472feaffafea537ce5a2a4c3c53a8de4
 
 
   # Repository hygiene checks carried over from the removed Rust
@@ -31,7 +31,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # @v4
 
       - name: Install toml linter
-        uses: taiki-e/install-action@ba47c86ac325773530516bb756137ac718732518 # @v2
+        uses: taiki-e/install-action@37f7c5781271959fb65b6b35224e28652ff2b63d # @v2
         with:
           tool: taplo-cli
 
